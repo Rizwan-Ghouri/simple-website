@@ -1,0 +1,46 @@
+.contact_body{
+    display: flex;
+    align-items: center;
+    height: 620px;
+}
+.contactForm{
+    width: 50%;
+    margin: auto;
+}
+.contactForm .dataInput{
+    width: 80%;
+    padding: 8px;
+    font-size: 18px;
+
+}
+.contactForm .gender{
+    font-size: 22px;
+    margin-right: 7px;
+}
+
+.contactForm .tel{
+    padding: 8px;
+    font-size: 18px;
+    width: 40%;
+}
+
+.contactForm textarea{
+    resize: none;
+    padding: 7px;
+    font-size: 20px;
+}
+
+.contactForm button{
+    font-size: 23px;
+    background-color: black;
+    color: white;    
+    padding: 8px 16px 8px 16px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.contactForm button:hover{
+    color:white;
+    background-color:brown;
+    border: 2px solid orangered;
+}
